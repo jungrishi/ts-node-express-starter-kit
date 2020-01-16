@@ -1,5 +1,3 @@
-# ts-node-express-starter-kit
-
 # TypeScript NodeJS Starter Project
 
 Starter Project for TypeScript, NodeJS and Express.
