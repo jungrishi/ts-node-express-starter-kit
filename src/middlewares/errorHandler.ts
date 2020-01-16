@@ -11,7 +11,7 @@ import * as errors from '../utils/errors';
  * @param  {function} next
  */
 
-// tslint:disable-next-line no-unused-variable
+// @ts-ignore
 export function notFoundError(req: Request, res: Response, next: NextFunction) {
   res.status(HttpStatus.NOT_FOUND).json({
     error: {
@@ -30,8 +30,9 @@ export function notFoundError(req: Request, res: Response, next: NextFunction) {
  * @param {Response} res
  * @param {NextFunction} next
  */
+
+// @ts-ignore
 export function genericErrorHandler(err: any, req: Request, res: Response, next: NextFunction) {
-  // tslint:disable-line no-unused-variable
   if (err.stack) {
     logger.debug('Error stack trace: ', err.stack);
   }
