@@ -15,6 +15,13 @@ Create a `.env` file for application specific environment variables and update i
 $ cp .env.example .env
 ```
 
+## Migrations
+You'll need to run migrations to get your database ready.
+```bash
+# Run Migration
+$ yarn migrate
+```
+
 ## Local Development
 Run the server locally using nodemon on typescript watch mode.
 ```bash
