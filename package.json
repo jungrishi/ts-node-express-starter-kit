@@ -2,7 +2,9 @@
   "name": "typescript_starter_kit",
   "version": "1.0.0",
   "description": "typescript starter pack",
-  "authors": ["Rishi Jung Ranabhat <ranabhat.85@gmail.com>"],
+  "authors": [
+    "Rishi Jung Ranabhat <ranabhat.85@gmail.com>"
+  ],
   "license": "MIT",
   "private": true,
   "keywords": [
@@ -55,6 +57,7 @@
     "@types/morgan": "^1.7.37",
     "@types/node": "^13.1.7",
     "@types/winston": "^2.4.4",
+    "http-status-codes": "^1.4.0",
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
     "nodemon": "^2.0.2",
